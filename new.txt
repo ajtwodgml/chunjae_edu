@@ -1,5 +1,0 @@
-git으로 관리 -> git init
-변경사항
-staging area -> git add .
-기록 남김 -> commit ''
-git log가 길어지면 'q'로 탈출 가능
