@@ -45,6 +45,7 @@ def bookmark_article(request, article_id):
 
 @api_view(['GET'])
 def bookmarked_articles(request):
+    
     user = request.user
     articles = user.bookmarks.all()
     # 유저가 북마크한거 전부다

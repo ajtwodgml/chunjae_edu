@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>숙소 예약</h1>
+  <form action="https://postman-echo.com/post", method = "POST"></form>
+
+    <h2>신상정보</h2>
+
+    <label for="reservation-name">이름 : </label>
+    <input type="text" name = 'name' id="reservation-name" placeholder = "이름입력"><br>
+
+    <!-- reservation-name 은 빈칸의 identity이다.-->
+
+    <label for="reservation-name">이메일 : </label>
+    <input type="email" name = 'email' id = 'reservation-name' placeholder = "이메일입력" ><br>
+
+    <label for="reservation-name">예약자 사진 : </label>
+    <input type="file", name="profile" id="reservation-name">
+    <hr>
+
+    <h2>상세정보</h2>
+    <h3>선호 객실 타입</h3>
+    <label for="reservation-name1">도시뷰 : </label>
+    <input type="checkbox" name="checkbox1" id="reservation-name1">
+    <label for="reservation-name1">레이크뷰 : </label>
+    <input type="checkbox" name="checkbox2" id="reservation-name2">
+    <label for="reservation-name1">마운틴뷰 : </label>
+    <input type="checkbox" name="checkbox3" id="reservation-name3"><br>
+
+    <label for="reservation-name1">도시뷰 : </label>
+    <input type="radio" name="radio1" id="reservation-name1" value="city">
+    <label for="reservation-name1">레이크뷰 : </label>
+    <input type="radio" name="radio2" id="reservation-name2" value="lake">
+    <label for="reservation-name1">마운틴뷰 : </label>
+    <input type="radio" name="radio3" id="reservation-name3" value="mountain"> <br>
+
+    <label for="">인원 수</label>
+    <input type="number" name = 'number'><br>
+
+    <label for="">요청사항</label>
+    <textarea name="request-text" id="" cols="30" rows="10"></textarea><br>
+    
+
+    <input type="submit" value ="예약하기">
+    <button type="submit">예약하기</button>
+
+
+    
+  </form>
+
+
+</body>
+</html>
