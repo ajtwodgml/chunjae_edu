@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container {
+      display: flex;
+      height: 120px;
+      border: 1px solid brown;
+    }
+
+    .flex-item {
+      border: 1px solid black;
+      padding: 10px;
+      margin: 10px;
+      height: 20px;
+    }
+
+    .center {
+      justify-content: center;
+    }
+
+    .horizontal {
+      justify-content: space-between;
+    }
+
+    .vertical {
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container center">
+    <div class="flex-item">Hello</div>
+    <div class="flex-item">World</div>
+    <div class="flex-item">HTML</div>
+    <div class="flex-item">CSS</div>
+  </div>
+  <div class="container horizontal">
+    <div class="flex-item">Hello</div>
+    <div class="flex-item">World</div>
+    <div class="flex-item">HTML</div>
+    <div class="flex-item">CSS</div>
+  </div>
+  <div class="container vertical">
+    <div class="flex-item">Hello</div>
+    <div class="flex-item">World</div>
+    <div class="flex-item">HTML</div>
+    <div class="flex-item">CSS</div>
+  </div>
+</body>
+
+</html>

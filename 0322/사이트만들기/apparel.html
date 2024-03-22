@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container {
+      margin: 10px;
+      height: 150px;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-around;
+    }
+    .flex-item{
+      list-style-type: none;
+    }
+    .header{
+      display: flex;
+      justify-content: space-between;
+    }
+    .flex-head{
+      list-style-type: none;
+      display: flex;
+      margin: 10px;
+      align-items: stretch;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+
+    }
+    .article{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 50px;
+      padding-right: 50px;
+      text-align: center;
+    }
+    .container-login{
+      display: flex;
+      justify-content: space-around;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    .flex-login {
+      border: 1px solid black;
+      height: 500px;
+      width: 700px; 
+    }
+    .login-font{
+      font-size: 2rem;
+    }
+    input{
+      font-size: 2rem;
+      display: flex;
+    }
+    h2{
+      font-size: 50px;
+      display: flex;
+      margin: center;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="header">
+      <h1>
+        <a href="#">Apparel Shop</a>
+      </h1>
+      <ul class = "flex-head">
+        <li class = "flex-head"><a href="">Home</a></li>
+        <li class = "flex-head"><a href="">Poduct</a></li>
+      </ul>
+    </nav>
+    <img src="apparel.png" alt="" width="100%">
+  </header>
+  <br>
+  <main>
+    <article class="header">
+      <img src="apparel2.jpg" alt="" width="40%">
+      <div class = "article">
+        <h2>About Our Company</h2>
+        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur quibusdam, repudiandae fugit accusantium ducimus, nesciunt sed accusamus illo dolor ab soluta praesentium repellendus similique ad non doloribus asperiores maiores tempore?</div>
+      </div>
+    </article>
+
+    <h2>Contact Us</h2>
+    <article class="container-login">
+      <div class="flex-login">
+        <div class="login-font">
+          <div>username</div>
+          <input type="text">
+          <div>email</div>
+          <input type="text"> 
+          <div>
+            <br>
+            <input type="file">
+            <br>
+            <input type="submit">
+          </div>
+        </div>
+      </div>
+      <div class="image2"><img src="apparel3.jpg" alt="" width="1000px" height="500px"></div>
+    </article>
+
+
+
+
+
+    <article>
+      <h2>More</h2>
+      <ul class="container">
+        <li class="flex-item">
+          <div>
+            <img src="mail_9068642.png" alt="" width="100px">
+            <div>Email Address</div>
+          </div>
+          <div>a@example.com</div>
+        </li>
+        <li class="flex-item">
+          <div>
+            <img src="telephone_724664.png" alt="" width="100px">
+            <div>Phone Number</div>
+          </div>
+          <div>010-1234-5678</div>
+        </li>
+        <li class="flex-item">
+          <div>
+            <img src="circle_14025061.png" alt="" width="100px">
+            <div>Location</div>
+          </div>
+          <div>서울특별시 가산동</div>
+        </li>
+        <li class="flex-item">
+          <div>
+            <img src="clock_10452883.png" alt="" width="100px">
+            <div>Working Hours</div>
+          </div>
+          <div>10am ~ 5pm</div>
+        </li>
+      </ul>
+      
+    </article>
+  </main>
+
+  <hr>
+
+  <footer>
+    @copy~
+  </footer>
+</body>
+</html>
